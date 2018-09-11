@@ -1,0 +1,22 @@
+{
+  "name": "doekoe",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Doekoe crypto wallet.",
+  "main": "main.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "start:electron": "npm run build && electron .",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "author": "R. Moorman <rob@moori.nl>",
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "electron": "^2.0.9"
+  }
+}
